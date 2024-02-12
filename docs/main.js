@@ -29,7 +29,7 @@ function darkMode() {
   const lightModeIcon = document.getElementById("lightModeIcon");
 
   if (isDarkMode) {
-    document.body.style.backgroundColor = "#000";/* dark mode color */
+    document.body.style.backgroundColor = "#555";/* dark mode color */
     darkModeIcon.style.display = "inline";
     lightModeIcon.style.display = "none";
 
